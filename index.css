@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@300&family=Outfit&display=swap');
+
+/* ---------------------background image for body-------------------- */
+body{
+    background-image: url("./assests/movie2.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* --------------------- container div --------------------------- */
+.container{
+    margin-top: 0%;
+    height: 50vh;
+    width: 100%;
+    background-color: rgb(10, 1, 14, 0.7);
+    /* border: 2px solid white; */
+}
+
+/* ---heading--- */
+.heading{
+    color: cyan;
+    font-family: monospace;
+    font-size: 3rem;
+    text-align: center;
+}
+
+
+/* ---search container--- */
+.search-container{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 4rem;
+}
+
+/* ---search-box--- */
+#search-box{
+    width: 40%;
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 5px;
+    /* border-top-left-radius: 20px;
+    border-top-right-radius: 20px; */
+}
+
+/* ---search-btn--- */
+.search-btn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(28, 199, 51);
+    color: white;
+    border: none;
+    /* width: 100px; */
+}
+
+.search-container .search-btn{
+    width: 150px;
+    border-radius: 7px;
+}
+
+.search-btn i{
+    font-size: 1.5rem;
+    color:rgba(245, 241, 41, 1)
+}
+
+.search-btn span{
+    font-size: 1.5rem;
+}
+
+.fav-btn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(71, 60, 223);
+    color: white;
+    border: none;
+}
+
+.search-container .fav-btn{
+    width: 200px;
+    border-radius: 7px;
+}
+
+.fav-btn i{
+    color: red;
+    font-size: 1.5rem;
+}
+
+.fav-btn span{
+    font-size: 1.5rem;
+}
+
+
+/* --------suggetion list----------- */
+#auto-complete-container{
+    width: 567px;
+    margin-left: 75px;
+    margin-top: 0;
+}
+
+#auto-complete{
+    width: 532px;
+    margin-top: 0;
+    list-style: none;
+}
+
+.list-item{
+    margin-top: 0;
+    color: black;
+    height: 40px;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    background-color: white;
+    border: 1px solid white;
+    border-top: none;
+    margin-left: -40px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+}
+
+/* ---hover on list items--- */
+.list-item:hover{
+    cursor: pointer;
+}

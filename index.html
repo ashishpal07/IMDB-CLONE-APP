@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMBD Clone</title>
+
+    <!-- Fontawesome CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" 
+    crossorigin="anonymous">
+
+    <!-- Css File -->
+    <link rel="stylesheet" href="./index.css">
+
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- heading -->
+        <h1 class="heading">
+            IMDb is an online database of information related to films, television programs etc.
+        </h1>
+
+        <!-- Search box div -->
+        <div class="search-container">
+
+            <!-- search-box -->
+            <input type="text" id="search-box" placeholder="search movie name...">
+
+            <!-- search-button -->
+            <button class="search-btn">
+                <i class="fas fa-search"></i>
+                <span class="search-text">Search<span>
+            </button>
+
+            <!-- Add to fav. button -->
+            <button class="fav-btn">
+                <i class="fas fa-heart"></i>
+                <span class="fav-text">My Favourites<span>
+            </button>
+            <!-- </a> -->
+        </div>
+        
+        <!-- auto-complete suggession -->
+        <div id="auto-complete-container">
+            <ul id="auto-complete" class="list-grp">
+                <!-- searching suggetion will come here -->
+            </ul>
+        </div>
+
+    </div>
+    
+    <!-- Link to js file -->
+    <script src="./index.js"></script>
+</body>
+</html>

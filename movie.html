@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMDB Clone</title>
+
+    <!-- css file -->
+    <link rel="stylesheet" href="./movie.css">
+
+    <!-- Fontawesome CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" 
+    crossorigin="anonymous">
+
+</head>
+<body>
+
+    <!-- heading -->
+    <div class="movie-details">
+        <h2>Movie Description</h2>
+    </div>
+    
+    <div class="container">
+
+        <!-- image container -->
+        <div class="image">
+            <img alt="Image-Not-Found" id="movie-image">
+        </div>
+
+        <div class="detail-container">
+
+            <!-- heading movie name -->
+            <h1 id="movie-name" class="heading"></h1>
+            <hr>
+            <div class="description">
+
+            </div>
+
+            <!-- buttons -->
+            <div id="btns">
+                <button class="add-fav">
+                    <span>Add To Favourites</span>
+                    <i class="far fa-arrow-alt-circle-right"></i>
+                </button>
+
+                <button class="my-fav">
+                    <i class="fas fa-heart"></i>
+                    <span>My Favourites</span>
+                </button>
+            </div>
+        </div>
+
+        <div id="msg-box">
+            
+        </div>
+
+    </div>
+
+    <script src="./movie.js"></script>
+</body>
+</html>
