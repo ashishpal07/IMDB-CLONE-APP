@@ -1,7 +1,7 @@
 
 # IMDB CLONE
 
-## [Project Live]()
+## [Project Live](https://ashishpal07.github.io/IMDB-CLONE-APP/)
 
 Well this is great build website using HTML, CSS, Vanilla JavaScript. And uses OMDb API which
 allow us to get more insights of movie. You can also add/remove your favourite Movie easily 
